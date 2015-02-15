@@ -7,7 +7,7 @@ define([ "shoestring" ], function(){
 	 *
 	 * @param {object} needle The thing to find.
 	 * @param {object} haystack The thing to find the needle in.
-	 * @return {boolean}
+	 * @return {integer}
 	 * @this window
 	 */
 	shoestring.inArray = function( needle, haystack ){
